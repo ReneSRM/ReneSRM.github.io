@@ -5,8 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria</title>
+
+    <style>
+        .menu{
+            background-color: darkslategrey;
+        }
+        .menu:hover{
+            background-color: rgb(62, 85, 85);
+        }
+        a{
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contenido{
+            border: 1px solid black;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+    </style>
 </head>
 <body>
-    <img src="si.jpg">
+    <h1>Navegación en HTML</h1><hr>
+    <div style="border: 1px solid black;"class="contenido">  
+        <div style="border-bottom: 1px solid black; padding: 10px;"class="menu">  
+            <a href="Practica6_noticias.html">Noticias</a>
+        </div>
+        <div style="border-bottom: 1px solid black; padding: 10px;"class="menu">  
+            <a href="Practica6_galeria.html">Galeria</a>
+        </div>
+        <div style="border-bottom: 1px solid black; padding: 10px;"class="menu">  
+            <a href="Practica6_contacto.html">Contacto</a>
+        </div>
+    </div>
+    <h1><i>Galeria de fotos</i></h1>
+    
+    <div style="border: 2px solid black;padding:20px;">
+        <img src="si.jpg" alt="" style="border: 1px solid black; width:30%;">
+        <img src="no.jpeg" alt="" style="border: 1px solid black; width:30%;">
+        <img src="puedeser.jpg" alt="" style="border: 1px solid black; width:30%;">
+
+    </div>
+
+    <div style="border: 1px solid black;padding: 10px; background-color: darkolivegreen;">
+        <a href="Practica6.html" >Regresar</a>
+    </div>
 </body>
 </html>
