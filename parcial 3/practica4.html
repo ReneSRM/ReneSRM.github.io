@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Examen en PHP</title>
+</head>
+
+<body style="background-color: darkslategray;">
+    <center><h1 style="color: burlywood;">Test de Molotov (todos deben de saberlo)</h1></center>
+    <div class="container">
+        
+        <form action="practica4.php" method="POST">
+            <input type="text" name="nombre" class="form-control" placeholder="Teclea tu nombre"><br>
+            <ul class="list-group">
+                <li class="list-group-item active" aria-current="true" style="background-color: darkolivegreen;">
+                    1.Cual fue el primer album de la banda?
+                </li>
+                <li class="list-group-item">
+                    <input type="radio" name="pregunta1" value="a"> 1.-Exorsimio
+                </li>
+                <li class="list-group-item">
+                    <input type="radio" name="pregunta1" value="b"> 2.-Reptielectric
+                </li>
+                <li class="list-group-item">
+                    <input type="radio" name="pregunta1" value="c"> 3.-¿Donde jugaran las niñas?
+                </li>
+            </ul><br>
+            <ul class="list-group">
+                <li class="list-group-item active" aria-current="true" style="background-color: seagreen;">
+                    2.¿Quien fue el baterista cuando inicio la banda?
+                </li>
+                <li class="list-group-item">
+                    <input type="radio" name="pregunta2" value="a"> 1.-Randy Ebright
+                </li>
+                <li class="list-group-item">
+                    <input type="radio" name="pregunta2" value="b"> 2.-Paco ayala
+                </li>
+                <li class="list-group-item">
+                    <input type="radio" name="pregunta2" value="c"> 3.-Ivan "La quesadillera"
+                </li>
+            </ul><br>
+            <ul class="list-group">
+                <li class="list-group-item active" aria-current="true" style="background-color: darkolivegreen;">
+                    3.¿En que año hacen su presentación del MTV Unplugged?
+                </li>
+                <li class="list-group-item">
+                    <input type="radio" name="pregunta3" value="a"> 1.-2011
+                </li>
+                <li class="list-group-item">
+                    <input type="radio" name="pregunta3" value="b"> 2.-2018
+                </li>
+                <li class="list-group-item">
+                    <input type="radio" name="pregunta3" value="c"> 3.-2004
+                </li>
+            </ul><br>
+            <ul class="list-group">
+                <li class="list-group-item active" aria-current="true" style="background-color: seagreen;">
+                    4.¿En que año se estrenó su ultimo album?
+                </li>
+                <li class="list-group-item">
+                    <input type="radio" name="pregunta4" value="a"> 1.-2023
+                </li>
+                <li class="list-group-item">
+                    <input type="radio" name="pregunta4" value="b"> 2.-2014
+                </li>
+                <li class="list-group-item">
+                    <input type="radio" name="pregunta4" value="c"> 3.-2016
+                </li>
+            </ul><br>
+            <ul class="list-group">
+                <li class="list-group-item active" aria-current="true" style="background-color: darkolivegreen;">
+                    5.¿Cual es su canción mas exitosa?
+                </li>
+                <li class="list-group-item">
+                    <input type="radio" name="pregunta5" value="a"> 1.-P*to
+                </li>
+                <li class="list-group-item">
+                    <input type="radio" name="pregunta5" value="b"> 2.-Gimme tha power
+                </li>
+                <li class="list-group-item">
+                    <input type="radio" name="pregunta5" value="c"> 3.-Frijolero
+                </li>
+            </ul><br>
+            <ul class="list-group">
+                <li class="list-group-item active" aria-current="true" style="background-color: seagreen;">
+                    6.¿Cual fue la colaboración mas inesperada?
+                </li>
+                <li class="list-group-item">
+                    <input type="radio" name="pregunta6" value="a"> 1.-Luis Miguel
+                </li>
+                <li class="list-group-item">
+                    <input type="radio" name="pregunta6" value="b"> 2.-Ana Tijoux
+                </li>
+                <li class="list-group-item">
+                    <input type="radio" name="pregunta6" value="c"> 3.-Wos
+                </li>
+            </ul><br>
+            <ul class="list-group">
+                <li class="list-group-item active" aria-current="true" style="background-color: darkolivegreen;">
+                    7.¿Actualmente cuantos miembros tiene la banda?
+                </li>
+                <li class="list-group-item">
+                    <input type="radio" name="pregunta7" value="a"> 1.-6
+                </li>
+                <li class="list-group-item">
+                    <input type="radio" name="pregunta7" value="b"> 2.-4
+                </li>
+                <li class="list-group-item">
+                    <input type="radio" name="pregunta7" value="c"> 3.-2
+                </li>
+            </ul><br>
+            <ul class="list-group">
+                <li class="list-group-item active" aria-current="true" style="background-color: seagreen;">
+                    8.¿Cuales son los instrumentos principales que utiliza la banda?
+                </li>
+                <li class="list-group-item">
+                    <input type="radio" name="pregunta8" value="a"> 1.-Batería, bajo, 2 guitarras
+                </li>
+                <li class="list-group-item">
+                    <input type="radio" name="pregunta8" value="b"> 2.-Batería, 2 bajos, guitarra
+                </li>
+                <li class="list-group-item">
+                    <input type="radio" name="pregunta8" value="c"> 3.-Batería, guitarra, tololoche 
+                </li>
+            </ul><br>
+            <ul class="list-group">
+                <li class="list-group-item active" aria-current="true" style="background-color: darkolivegreen;">
+                    9.¿Como hizo la banda para impulsar su carrera?
+                </li>
+                <li class="list-group-item">
+                    <input type="radio" name="pregunta9" value="a"> 1.-Contactos
+                </li>
+                <li class="list-group-item">
+                    <input type="radio" name="pregunta9" value="b"> 2.-Suerte
+                </li>
+                <li class="list-group-item">
+                    <input type="radio" name="pregunta9" value="c"> 3.-Ganando un concurso de coca-cola
+                </li>
+            </ul><br>
+            <ul class="list-group">
+                <li class="list-group-item active" aria-current="true" style="background-color: seagreen;">
+                    10.¿Canción favorita del creador del test?
+                </li>
+                <li class="list-group-item">
+                    <input type="radio" name="pregunta10" value="a"> 1.-Frijolero
+                </li>
+                <li class="list-group-item">
+                    <input type="radio" name="pregunta10" value="b"> 2.-Parasito(Mtv Unplugged)
+                </li>
+                <li class="list-group-item">
+                    <input type="radio" name="pregunta10" value="c"> 3.-I,m the one 
+                </li>
+            </ul><br>
+            <div>
+                <input type="submit" class="btn btn-primary" value="Calificar">
+            </div><br>
+        </form>
+    </div>
+</body>
+
+</html>
