@@ -3,7 +3,15 @@
 $cuadros = $_POST["cuadro"];
 
 for($i=0; $i<count($cuadros); $i++){
-    echo $cuadros[$i]. ",";
+   for($m=0; $m<1;$m++){
+    echo "[";
+    echo $cuadros[$i]."]";
+  }
+
+  if($i==2 || $i==5){
+      echo "<br>";
+    }
+    
     if($cuadros[$i]!="X" && $cuadros [$i]!="O"){
         echo "<h2>Solo se permiten X y/o O</h2>";
         return;
